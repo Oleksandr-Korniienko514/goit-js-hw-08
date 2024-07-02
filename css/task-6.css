@@ -1,0 +1,28 @@
+#controls,
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  background: #f6f6fe;
+  margin: 0 auto 16px;
+  max-width: 455px;
+}
+
+#controls input {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin: 0;
+}
+
+#controls button {
+  width: 120px;
+}
+
+#controls button[data-destroy] {
+  background-color: #ff4e4e;
+}
